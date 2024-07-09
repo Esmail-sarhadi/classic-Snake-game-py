@@ -14,7 +14,7 @@ A classic Snake game implemented in Python using Pygame. Navigate the snake to e
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/snake-eater.git
+    git clone https://github.com/Esmail-sarhadi/classic-Snake-game-py.git
     cd snake-eater
     ```
 
@@ -67,4 +67,4 @@ This project is licensed under the MIT License.
 ---
 
 Feel free to customize this README file according to your needs. Happy coding!
-```
+
