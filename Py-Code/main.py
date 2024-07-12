@@ -4,11 +4,11 @@ import time
 import random
 
 # Difficulty settings
-difficulty = 35  # Medium
+difficulty = 22  # Medium
 
 # Window size
-frame_size_x = 720
-frame_size_y = 480
+frame_size_x = 1024
+frame_size_y = 1024
 
 # Checks for errors encountered
 check_errors = pygame.init()
