@@ -4,7 +4,7 @@ import time
 import random
 
 # Difficulty settings
-difficulty = 10  # Medium
+difficulty = 35  # Medium
 
 # Window size
 frame_size_x = 720
