@@ -29,6 +29,8 @@ red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 
+
+
 # FPS (frames per second) controller
 fps_controller = pygame.time.Clock()
 
@@ -77,6 +79,7 @@ def game_menu():
     options = ['Run Game', 'Exit']
     selected_option = 0
     
+
     while True:
         game_window.fill(black)
         for event in pygame.event.get():
@@ -109,6 +112,7 @@ def game_menu():
 # Main game loop
 def main():
     global direction, change_to, snake_pos, food_pos, food_spawn, score, snake_body
+
 
     while True:
         for event in pygame.event.get():
@@ -145,6 +149,7 @@ def main():
         if direction == 'RIGHT':
             snake_pos[0] += 10
 
+
         snake_body.insert(0, list(snake_pos))
         if snake_pos[0] == food_pos[0] and snake_pos[1] == food_pos[1]:
             score += 1
@@ -175,10 +180,11 @@ def main():
             if snake_pos[0] == block[0] and snake_pos[1] == block[1]:
                 game_over()
 
+
         show_score(1, white, 'consolas', 20)
         pygame.display.update()
         fps_controller.tick(difficulty)
 
 if __name__ == '__main__':
-    game_menu()  # Start the game with the menu
-    main()  # Start the main game loop
+    game_menu()  # start the game with the menu
+    main()  # start the Main game loop
